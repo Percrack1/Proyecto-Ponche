@@ -1,0 +1,7 @@
+a=float(input("Ingresa el valor de a: "))
+b=float(input("Ingresa el valor de b: "))
+c=float(input("Ingresa el valor de c: "))
+valor_x1 = (-b + (b**2 - 4*a*c)**0.5) / (2*a)
+valor_x2 = (-b - (b**2 - 4*a*c)**0.5) / (2*a)
+print("El valor de x1 es: ", valor_x1)
+print("El valor de x2 es: ", valor_x2)

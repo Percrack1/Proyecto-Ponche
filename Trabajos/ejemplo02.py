@@ -1,0 +1,7 @@
+print("Hoy es 12 de febrero")
+print("Estamos viendo el funcionamiento del print", end=" ")
+print("y vamos a configurar las variables sep y end", 5, 10, 15, 5, sep="-----")
+nombre=input("Ingresa tu nombre: ")
+edad=int(input("Ingresa tu edad: "))
+estatura=float(input("Ingresa tu altura: "))
+print("Hola", nombre, "tienes", edad, "años", "y mides", estatura, "mts.")
